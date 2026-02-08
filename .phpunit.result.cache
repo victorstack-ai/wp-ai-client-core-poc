@@ -1,0 +1,1 @@
+{"version":1,"defects":{"AI_Manager_Test::test_provider_registration":4,"AI_Manager_Test::test_mock_provider_chat":4},"times":{"Test_AI_Manager::test_provider_registration":0.001,"Test_AI_Manager::test_mock_provider_chat":0,"AI_Manager_Test::test_provider_registration":0.001,"AI_Manager_Test::test_mock_provider_chat":0}}
