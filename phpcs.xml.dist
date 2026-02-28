@@ -6,6 +6,13 @@
 	<rule ref="WordPress.Files.FileName">
 		<exclude-pattern>tests/*</exclude-pattern>
 	</rule>
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="ai-client-core" />
+			</property>
+		</properties>
+	</rule>
 	<arg name="extensions" value="php" />
 	<file>.</file>
 	<exclude-pattern>vendor/*</exclude-pattern>

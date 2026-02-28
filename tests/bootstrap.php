@@ -29,4 +29,4 @@ if ( ! function_exists( 'add_action' ) ) {
 }
 
 require_once dirname( __DIR__ ) . '/vendor/autoload.php';
-require_once dirname( __DIR__ ) . '/wp-ai-client-core-poc.php';
+require_once dirname( __DIR__ ) . '/ai-client-core.php';

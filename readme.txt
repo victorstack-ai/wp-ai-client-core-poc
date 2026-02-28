@@ -1,4 +1,4 @@
-=== WP AI Client Core POC ===
+=== AI Client Core ===
 Contributors: victorstackai
 Tags: ai, client, core, proof-of-concept, wordpress-7
 Requires at least: 6.0
@@ -12,11 +12,11 @@ A proof of concept for the WordPress 7.0 WP AI Client core merge proposal.
 
 == Description ==
 
-WP AI Client Core POC demonstrates a proposed architecture for integrating AI capabilities directly into WordPress core, as part of the WordPress 7.0 roadmap discussion.
+AI Client Core demonstrates a proposed architecture for integrating AI capabilities directly into WordPress core, as part of the WordPress 7.0 roadmap discussion.
 
 == Installation ==
 
-1. Upload the `wp-ai-client-core-poc` folder to the `/wp-content/plugins/` directory.
+1. Upload the `ai-client-core` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Frequently Asked Questions ==

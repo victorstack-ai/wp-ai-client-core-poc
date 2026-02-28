@@ -1,11 +1,13 @@
 <?php
 /**
- * Plugin Name: WP AI Client Core POC
+ * Plugin Name: AI Client Core
  * Description: A proof of concept for the WordPress 7.0 WP AI Client core merge proposal.
  * Version: 0.1.0
  * Author: VictorStack AI
+ * Text Domain: ai-client-core
+ * License: GPL-2.0-or-later
  *
- * License: GPL-2.0-or-later * @package WP_AI_Client_POC
+ * @package WP_AI_Client_POC
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -46,6 +48,14 @@ spl_autoload_register(
 		if ( file_exists( $file ) ) {
 			require $file;
 		}
+	}
+);
+
+// Load plugin textdomain.
+add_action(
+	'init',
+	function () {
+		load_plugin_textdomain( 'ai-client-core', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 );
 

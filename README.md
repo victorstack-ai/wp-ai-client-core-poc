@@ -1,4 +1,4 @@
-# WP AI Client Core POC
+# AI Client Core
 
 A proof of concept for the WordPress 7.0 WP AI Client core merge proposal.
 

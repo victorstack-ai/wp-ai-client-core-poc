@@ -26,6 +26,7 @@ phpunit.xml.dist
 grumphp.yml
 
 # Project files
+README.md
 SECURITY.md
 CHANGELOG.md
 CONTRIBUTING.md

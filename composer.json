@@ -1,5 +1,5 @@
 {
-    "name": "victorstack-ai/wp-ai-client-core-poc",
+    "name": "victorstack-ai/ai-client-core",
     "description": "A proof of concept for the WordPress 7.0 WP AI Client core merge proposal.",
     "type": "wordpress-plugin",
     "require-dev": {
