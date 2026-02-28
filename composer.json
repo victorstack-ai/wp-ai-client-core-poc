@@ -19,5 +19,6 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
-    }
+    },
+    "license": "GPL-2.0-or-later"
 }

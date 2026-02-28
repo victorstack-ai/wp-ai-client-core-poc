@@ -5,7 +5,7 @@
  * Version: 0.1.0
  * Author: VictorStack AI
  *
- * @package WP_AI_Client_POC
+ * License: GPL-2.0-or-later * @package WP_AI_Client_POC
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
